@@ -48,7 +48,7 @@ export function AppShell({
               {title}
             </h1>
             <p className="truncate text-xs text-muted-foreground">
-              Ganpati Stall Manager
+              Murti Booking System
             </p>
           </div>
           {right}

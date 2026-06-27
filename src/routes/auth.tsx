@@ -71,7 +71,7 @@ function AuthPage() {
         <div className="grid h-16 w-16 place-items-center rounded-2xl bg-primary text-3xl font-bold text-primary-foreground shadow-lg shadow-primary/30">
           ॐ
         </div>
-        <h1 className="mt-3 text-2xl font-bold text-foreground">Ganpati Stall Manager</h1>
+        <h1 className="mt-3 text-2xl font-bold text-foreground">Murti Booking System</h1>
         <p className="text-sm text-muted-foreground">Sign in to manage bookings</p>
       </div>
 

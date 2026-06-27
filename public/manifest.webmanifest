@@ -1,7 +1,7 @@
 {
-  "name": "Ganpati Stall Manager",
-  "short_name": "Ganpati Stall",
-  "description": "Manage Ganpati murti bookings, photos and pickups during Ganesh Chaturthi.",
+  "name": "Murti Booking System",
+  "short_name": "Murti Booking",
+  "description": "Manage murti bookings, customer photos and delivery records.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

@@ -83,18 +83,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1",
       },
-      { title: "Ganpati Stall Manager" },
+      { title: "Murti Booking System" },
       {
         name: "description",
         content:
-          "Manage Ganpati murti bookings, photos, advance payments and pickups during Ganesh Chaturthi.",
+          "Manage murti bookings, customer photos and delivery records.",
       },
       { name: "theme-color", content: "#7a1d2b" },
       { name: "apple-mobile-web-app-capable", content: "yes" },
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
-      { name: "apple-mobile-web-app-title", content: "Ganpati Stall" },
+      { name: "apple-mobile-web-app-title", content: "Murti Booking" },
       { name: "mobile-web-app-capable", content: "yes" },
-      { property: "og:title", content: "Ganpati Stall Manager" },
+      { property: "og:title", content: "Murti Booking System" },
       { property: "og:description", content: "Bookings, photos and pickups for your murti stall." },
       { property: "og:type", content: "website" },
     ],

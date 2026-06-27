@@ -80,9 +80,9 @@ function AnalyticsPage() {
     XLSX.utils.book_append_sheet(wb, ws, "Bookings");
     const stamp = formatDate(new Date()).replace(/\s/g, "_");
     if (fmt === "xlsx") {
-      XLSX.writeFile(wb, `ganpati_bookings_${stamp}.xlsx`);
+      XLSX.writeFile(wb, `murti_bookings_${stamp}.xlsx`);
     } else {
-      XLSX.writeFile(wb, `ganpati_bookings_${stamp}.csv`, { bookType: "csv" });
+      XLSX.writeFile(wb, `murti_bookings_${stamp}.csv`, { bookType: "csv" });
     }
     toast.success(`Exported ${rows.length} bookings`);
   }
